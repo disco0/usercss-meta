@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "emitDeclarationOnly": true,
+        "declaration": true,
+        "declarationDir": "types",
+        "declarationMap": false,
+
+        "listEmittedFiles": true,
+
+        "checkJs": true,
+        "allowJs": true,
+
+        "rootDir": "./",
+
+        "typeRoots": [
+          "node_modules/@types"
+        ],
+
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "Node",
+        "target": "ES2018",
+        "module": "CommonJS"
+    },
+    "include": [
+        "lib/*.js",
+        "data/*.js",
+        "shim/*.js"
+    ],
+    "files": [
+        "./index.ts"
+    ]
+}
