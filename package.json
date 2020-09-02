@@ -18,7 +18,8 @@
     "coverage": "nyc report --reporter=html",
     "preversion": "node prepare-release.js && npm test",
     "version": "npm run build",
-    "postversion": "git push --follow-tags && npm publish"
+    "postversion": "git push --follow-tags && npm publish",
+    "build-types": "tsc --pretty -p ./tsconfig.dts.json"
   },
   "files": [
     "index.js",
