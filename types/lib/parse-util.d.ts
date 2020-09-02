@@ -1,0 +1,11 @@
+export function eatLine(state: any): void;
+export function eatWhitespace(state: any): void;
+export function parseChar(state: any): void;
+export function parseEOT(state: any): void;
+export function parseJSON(state: any): void;
+export function parseNumber(state: any): void;
+export function parseString(state: any, sameLine?: boolean): void;
+export function parseStringToEnd(state: any): void;
+export function parseStringUnquoted(state: any): void;
+export function parseWord(state: any): void;
+export function unquote(s: any): any;
